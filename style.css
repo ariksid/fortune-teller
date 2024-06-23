@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background: #080808;
+    color: #fff;
+}
+#header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/fortune.jpg);
+    background-size: cover;
+    background-position: center;
+
+
+}
+.container{
+    padding: 10px 10%;
+}
+
+
+.header-text{
+    margin-top: 20%;
+    font-size: 30px;
+    text-align: center;
+}
+.header-text h1{
+    font-size: 60px;
+    margin-top: 20px;
+    text-align: center;
+}
+    
+
+.header-text h1 span{
+    color:#ff004f;  
+
+}
+
+.fortune-box {
+    margin-top: 20px;
+    padding: 20px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6));
+    color: #fff;
+    border-radius: 15px;
+    border: 1px solid #333;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+#fortune {
+    font-size: 1.5em;
+}
